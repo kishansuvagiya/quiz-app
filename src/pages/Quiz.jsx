@@ -118,7 +118,7 @@ function Quiz() {
                                     <FormControl>
                                         <RadioGroup className='ml-4' name="radio-buttons-group" value={selectedOption} onChange={handleOptionChange}>
                                             {tenQuestions[currentIndex].options.map((option, index) => (
-                                                <FormControlLabel key={index} value={option} className='border-2 rounded-md p-1'
+                                                <FormControlLabel key={index} value={option} className='border-2 rounded-md p-1 options-css'
                                                     control={<Radio className='text-white' />}
                                                     label={option} />
                                             ))

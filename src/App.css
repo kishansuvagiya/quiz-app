@@ -23,24 +23,24 @@
 }
 
 /* -------------------- mui radio button -------------------------- */
-.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+.options-css {
     font-size: 20px;
     width: 870px;
 }
 
 @media only screen and (max-width: 768px) {
-    .MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+    .options-css {
         width: 470px;
     }
 }
 @media only screen and (max-width: 425px) {
-    .MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+    .options-css {
         font-size: 18px;
         width: 270px;
     }
 }
 
-.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root {
+.options-css {
     margin-bottom: 10px;
 }
 
