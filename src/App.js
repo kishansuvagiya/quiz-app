@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename='/quiz-app'>
         <Routes>
-          <Route exact path='/quiz-app' element={<Login />} />
+          <Route exact path='/' element={<Login />} />
           <Route path='/category' element={<Protect><Category /></Protect>} />
           <Route path='/quiz/:name' element={<Protect><Quiz /></Protect>} />
         </Routes>
