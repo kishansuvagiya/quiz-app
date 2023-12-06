@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Login />} />
-          <Route path='/category' element={<Protect><Category /></Protect>} />
-          <Route path='/quiz/:name' element={<Protect><Quiz /></Protect>} />
+          <Route path='/quiz-app' element={<Login />} />
+          <Route path='/quiz-app/category' element={<Protect><Category /></Protect>} />
+          <Route path='/quiz-app/quiz/:name' element={<Protect><Quiz /></Protect>} />
         </Routes>
         <ToastContainer />
       </BrowserRouter>
