@@ -27,7 +27,7 @@ export default function Navbarr() {
           progress: undefined,
           theme: "dark",
         });
-        navigate('/')
+        navigate('/quiz-app')
     }
   return (
     <Box sx={{ flexGrow: 1 }}>

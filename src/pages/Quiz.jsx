@@ -101,7 +101,7 @@ function Quiz() {
                             <p className="result-score">
                                 Your Score: {score} / 10
                             </p>
-                            <Button variant="contained" className='bg-slate-300 text-black' onClick={() => navigate('/quiz-app/category')} endIcon={<ReplayOutlinedIcon />}>play again</Button>
+                            <Button variant="contained" className='bg-slate-300 text-black' onClick={() => navigate('/category')} endIcon={<ReplayOutlinedIcon />}>play again</Button>
                         </div> :
                         tenQuestions.length > 0 ?
                             <>
