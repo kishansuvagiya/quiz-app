@@ -59,7 +59,7 @@ function Login() {
                 theme: "dark",
             });
             setTimeout(() => {
-                navigate('/category')
+                navigate('/quiz-app/category')
             }, 1000)
             localStorage.setItem('token', res.data.token)
             localStorage.setItem('user', res.data.data.username)
@@ -94,7 +94,7 @@ function Login() {
                 // icon: <LoginIcon sx={{ color: lightGreen['A400'] }} />
             });
             // setTimeout(() => {
-                navigate('/category')
+                navigate('/quiz-app/category')
             // }, 1000)
             localStorage.setItem('token', res.data.token)
             localStorage.setItem('user', res.data.data.username)

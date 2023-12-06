@@ -35,7 +35,7 @@ function Category() {
         allCategory()
     }, [])
     const gotoQuiz = (item) => {
-        navigate('/quiz/' + item.name)
+        navigate('/quiz-app/quiz/' + item.name)
     }
     return (
         <div >
